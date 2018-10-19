@@ -1,0 +1,34 @@
+.dropdown{
+  width: 300px;
+  margin:100px auto;
+  color: color;
+}
+
+.dropdown .selected{
+  background:#23589a;
+  border-radius: 5px;
+  color:white;
+  padding:5px;
+}
+
+.dropdown .selected:hover{
+  cursor: pointer;
+}
+
+.dropdown ul{
+  list-style:none;
+  padding: 0px;
+  margin-top:0px;
+  background:#fcfcfc;
+}
+
+.dropdown ul li{
+  padding: 5px;
+  border-bottom: 1px dotted black;
+}
+
+.dropdown ul li:hover{
+  background: #34A286;
+  cursor: pointer;
+  color:white;
+}
